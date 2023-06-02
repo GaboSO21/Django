@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %}
+
+{% block title %} Portada {% endblock title %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock background %}
+
+{% block headers %}
+<h1>Gabriel Sanchez</h1>
+<span class="subheading">Back-End Developer</span>
+{% endblock headers %}
+
+{% block content %}
+
+
+{% if request.path != '/' %}
+
+<hr>
+
+{% endif %}
+{% endblock content %}

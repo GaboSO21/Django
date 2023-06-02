@@ -1,0 +1,13 @@
+# Studybud project
+studybud/
+
+# Pip files
+Pipfile
+Pipfile.lock
+
+# Extra space
+web_personal/db.sqlite3
+web_personal/media
+
+# Static files
+web_personal/core/static/
