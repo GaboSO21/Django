@@ -8,6 +8,9 @@ Pipfile.lock
 # Extra space
 web_personal/db.sqlite3
 web_personal/media
+webempresa/db.sqlite3
+webempresa/media
 
 # Static files
 web_personal/core/static/
+webempresa/core/static
